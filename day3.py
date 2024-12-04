@@ -25,7 +25,7 @@ with open(filename) as file:
 	txt = file.read()
 
 partDont = txt.split("don't")
-print(partDont)
+# print(partDont)
 
 sumTotal += readRegex(partDont[0])
 
