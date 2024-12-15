@@ -14,6 +14,10 @@ part1 = False
 sizeW = 101
 sizeH = 103
 
+def find_group_robot(level):
+	R = len(level)
+	C = len(level[0])
+
 def read_level(level):
 	print("-------------")
 	for i in range(len(level)):
